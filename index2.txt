@@ -1,0 +1,65 @@
+<?php
+require_once 'sistema/configuracao.php';
+include_once 'helpers.php';            
+
+
+
+$media_final = 4;
+
+echo $media_final >=5? 'Aprovado':'Reprovado';
+
+echo '<br>'.formatavalor(200000);
+
+echo '<br>'.formatarNumero(1000000);
+
+echo '<br>'. calcularMedia(10,10,10,1,1);
+
+echo '<br>'.contarTempo('2001-08-11 13:30:10').'<br>';
+
+//var_dump(validarUrl('https://sitedojoao.com'));    
+
+if(validarUrl('https://ojoao.com')){
+    echo 'URL válida. O site será redirecionado em 5 segundos...';
+}
+else{
+    echo 'URL inválida. Tente novamente';
+}
+echo'<br>';
+if(validarEmail('guilherme@gmail.com')){
+    echo 'Email válido.';
+}
+else{
+    echo 'Email inválida.';
+}
+
+echo '<hr>';
+$texto = 'Guilherme';
+$parametro = 'a';
+if(strpos($texto, $parametro)){
+    echo 'elemento encontrado';
+}
+else{
+    echo 'erro: elemento não encontrado';
+}
+
+echo'<br>';
+$_session['logado'] = 'Usuário logado';
+
+unset($_session['logado']);
+
+if(isset ($_session['logado'])){
+    echo 'Usuário logado, página inicial';
+}
+else{
+    echo 'Usuário precisa fazer login';
+}
+
+echo '<hr>';
+echo SITE_NOME;
+echo '<br>';
+echo SITE_DESCRICAO;
+echo '<br>';
+$_GET['usuario'];
+
+
+?>

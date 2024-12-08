@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #795458;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    color: aliceblue;
+    width: 100%;
+}
+header p{
+    text-decoration: none;
+    color: aliceblue;
+    width: 1000px;
+    font-size: larger;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}

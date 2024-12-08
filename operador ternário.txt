@@ -1,0 +1,3 @@
+condição ? instruçãoseverdade : instruçãosefalso
+
+number_format(NUMERO, QUANTCASASDECIMAIS, SEPARADOR DECIMAL, SEPARADOR MILHAR);

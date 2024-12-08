@@ -1,0 +1,36 @@
+<?php
+require_once 'sistema/configuracao.php';
+include_once 'helpers.php';            
+
+echo 'Página inicial - Curso PHP <br> <br>';
+
+echo saudacao('Guilherme').'<br>';
+//echo soma().'<br>';
+//echo mult(5,5);
+
+$variavel;
+$valor_inteiro = 10;
+$nomeUsuário = "Guilherme";
+
+
+//$texto = "Maylon";
+$texto = "<br>Poema é um texto literário escrito em versos, que são distribuídos em estrofes. Esses versos podem ser regulares, brancos ou livres. Se for composto por versos regulares, esse texto poderá apresentar diversos tipos de rimas. Também pode ser narrativo, dramático ou lírico.";
+$textoTamanho = mb_strlen($texto);
+echo $texto."<hr>";
+echo $textoTamanho."<hr>";
+
+//------------------------------------------------------
+echo verifica_usuario(" Guilherme                        A");
+echo "<hr>";
+//------------------------------------------------------
+
+$usuario2 = " Guilherme  ";
+echo "-".$usuario2."-<br>";
+echo mb_strlen($usuario2)."<br>";
+echo mb_strlen(trim($usuario2))."<br>";
+echo mb_strlen(rtrim($usuario2))."<br>";
+echo mb_strlen(ltrim($usuario2))."<br>";
+
+echo "ooooooo";
+
+?>
