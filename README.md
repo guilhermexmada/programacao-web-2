@@ -48,8 +48,10 @@ No entanto, suas últimas versões são poderosas o suficiente para sustentar si
 5. Funções
 6. Manipulação de arrays
 7. Métodos de referência 
-8. CRUD 
+8. CRUD
+   
 8.1 Captura, processamento e entrega de dados integrada à interfaces
+
 8.2 Conexão com banco de dados relacional 
 
 ## Tecnologias utilizadas
