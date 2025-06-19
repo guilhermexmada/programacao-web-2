@@ -19,12 +19,12 @@ Aqui vai um passo a passo para visualizar as atividades, do mesmo modo que foi r
 - Servidor/IP: **127.0.0.1**
 - Usuário: **root**
 - Nenhuma senha
-6. Entre no repositório baixado, acesse a pasta com a atividade que você deseja visualizar e procure um arquivo de extensão *.sql* (se a atividade utilizar banco de dados, ele estará disponível através deste arquivo)
-7. Abra o arquivo *.sql* com o programa HeidiSQL e execute o código usando **CTRL+A** e **F9**. Você também pode entrar na sessão do HeidiSQL e selecionar a opção *arquivo > executar arquivo SQL...* (isto deve baixar o banco de dados usado na atividade)
-8. Copie ou recorte a pasta deste repositório com a atividade que você deseja visualizar.
-9. Cole a pasta com a atividade em *xampp\htdocs*. A pasta "htdocs" é o diretório padrão para visualização de projetos dentro da pasta de instalação do XAMPP. 
-10. Abra o seu navegador padrão e digite *localhost* na barra de pesquisa. Você deve ser redirecionado para o diretório "htdocs" no seu computador, como se estivesse acessando um servidor on-line.
-11. Navegue pela interface do servidor e selecione a pasta com a atividade, então você provavelmente será redirecionado ao **index.php**, podendo visualizar o website.
+7. Entre no repositório baixado, acesse a pasta com a atividade que você deseja visualizar e procure um arquivo de extensão *.sql* (se a atividade utilizar banco de dados, ele estará disponível através deste arquivo)
+8. Abra o arquivo *.sql* com o programa HeidiSQL e execute o código usando **CTRL+A** e **F9**. Você também pode entrar na sessão do HeidiSQL e selecionar a opção *arquivo > executar arquivo SQL...* (isto deve baixar o banco de dados usado na atividade)
+9. Copie ou recorte a pasta deste repositório com a atividade que você deseja visualizar.
+10. Cole a pasta com a atividade em *xampp\htdocs*. A pasta "htdocs" é o diretório padrão para visualização de projetos dentro da pasta de instalação do XAMPP. 
+11. Abra o seu navegador padrão e digite *localhost* na barra de pesquisa. Você deve ser redirecionado para o diretório "htdocs" no seu computador, como se estivesse acessando um servidor on-line.
+12. Navegue pela interface do servidor e selecione a pasta com a atividade, então você provavelmente será redirecionado ao **index.php**, podendo visualizar o website.
 
 
 ## ❓ O que é PHP?
