@@ -11,10 +11,11 @@ Cada pasta do repositório guarda uma atividade diferente. Em aula, utilizamos o
 Aqui vai um passo a passo para visualizar as atividades, do mesmo modo que foi realizado em aula:
 
 1. Baixe este repositório.
-2. Instale o XAMPP. Você pode usar [este](https://www.apachefriends.org/pt_br/index.html) link.
-3. Instale o HeidiSQL. Você pode usar [este](https://www.heidisql.com/download.php) link.
-4. No painel de controle do XAMPP, você deve iniciar os serviços **Apache** e **MySQL**.
-5. No gerenciador de sessões do HeidiSQL, você deve adicionar uma sessão usando o botão "Nova". Para que a sessão não entre em conflito com as configurações das atividades, ela deve possuir:
+2. Instale o PHP. Você pode usar [este](https://www.php.net/downloads.php) link.
+3. Instale o XAMPP. Você pode usar [este](https://www.apachefriends.org/pt_br/index.html) link.
+4. Instale o HeidiSQL. Você pode usar [este](https://www.heidisql.com/download.php) link.
+5. No painel de controle do XAMPP, você deve iniciar os serviços **Apache** e **MySQL**.
+6. No gerenciador de sessões do HeidiSQL, você deve adicionar uma sessão usando o botão "Nova". Para que a sessão não entre em conflito com as configurações das atividades, ela deve possuir:
 - Servidor/IP: **127.0.0.1**
 - Usuário: **root**
 - Nenhuma senha
